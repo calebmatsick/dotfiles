@@ -16,5 +16,5 @@ My WIP dotfiles
     - `stow .tmux.conf`
     - `stow init.vim`
 10. Run `:PackerSync` in neovim
-11. Run `tmux source-file ~/.tmux.conf
+11. Run `tmux source-file ~/.tmux.conf`
 
