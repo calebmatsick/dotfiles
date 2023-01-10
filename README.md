@@ -2,7 +2,7 @@
 My WIP dotfiles
 
 ## Basic Replication steps:
->These steps are not tested but rather written as a rough outline to serve until I get a chance to work through the exact process*
+>These steps are not tested but rather written as a rough outline to serve until I get a chance to work through the exact process
 1. Install zsh
 2. Install Oh-My-Zsh
 3. Install Powerlevel10k
