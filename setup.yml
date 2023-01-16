@@ -1,0 +1,31 @@
+- hosts: localhost
+  become: yes
+  vars:
+    - dotfiles_repo: 'https://github.com/calebmatsick/dotfiles'
+
+  tasks:
+    - name: "Install packages"
+      apt:
+        name:
+          - bat
+          - exa
+          - stow
+          - zsh
+        state: latest
+
+  tasks:
+    - name: "Clone dotfiles"
+      git:
+        repo: "{{ dotfiles_repo }}"
+        dest: ~/.config
+      delegate_to: localhost
+      run_once: true
+      become: no
+
+  tasks:
+    - name: "Stow config files"
+      shell: stow ~/.config/{{ item }}
+      with_items:
+        - zsh
+        - tmux
+        - nvim
