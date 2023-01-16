@@ -1,7 +1,19 @@
 # dotfiles
 My WIP dotfiles
 
-## Basic Replication steps:
+## Ansible Local Installation
+1. Save `setup.yml`
+2. Install ansible:
+    ```
+    sudo apt update && sudo apt upgrade -y
+    sudo apt install software-properties-common
+    sudo apt-add-repository ppa:ansible/ansible
+    sudo apt update
+    sudo apt install ansible
+    ```
+3. Run `ansible-playbook setup.yml --ask-become-pass`
+
+## Basic Manual Replication steps:
 >These steps are not tested but rather written as a rough outline to serve until I get a chance to work through the exact process
 1. Install zsh
 2. Install Oh-My-Zsh
