@@ -1,0 +1,147 @@
+ls
+whoami
+pwd
+ls
+cd ..
+cd personal-website/
+cd ..
+mkdir test
+ls
+rm test
+ls
+cd personal-website/
+ls | select 2
+ls | select * where type = file
+ls | select where type = file
+ls
+tmux
+ls
+pwd
+clera
+clear
+ls
+cd ~
+ls
+ls -la
+cd .cargo
+ls
+cd bin
+ls
+cd nu
+ls
+cd
+cd .config
+ls
+cd .config
+cd ~/.consif
+cd ~/.config
+ls
+cd tmux
+ls
+cd ~
+ls
+ls -la
+cd .config/tmux/
+git status
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+nvim .tmux.conf
+tmux source ~/.tmux.conf
+cd
+tmux source ~/.tmux.conf
+chsh -s ~/.cargo/bin/nu
+chsh -s ~/.cargo/bin/nushell
+ls ~/.cargo/bin/
+chsh -s ~/.cargo/bin/nu
+ln -s ~/.cargo/bin/nu /bin/nu
+sudo ln -s ~/.cargo/bin/nu /bin/nu
+chsh -s /bin/nu
+cat /etc/shells
+echo "/bin/nu" >> /etc/shells
+sudo nvim /etc/shells
+nvim /etc/shells
+sudo nvim /etc/shells
+sudo vi /etc/shells
+chsh -s /bin/nu
+exit
+tmux
+exit
+tmux ls
+pnpm run dev
+cd personal-website/
+cd personal-website/
+nvim .
+neovim
+ls
+cd ..
+nivm
+nvim
+cd .config/
+ls
+cd nvim/
+ls
+cd
+where nvim
+cd /opt
+ls
+cd nvim/
+ls
+cd ..
+ls
+ln -s /opt/nvim/nvim /usr/local/bin
+sudo ln -s /opt/nvim/nvim /usr/local/bin
+cd
+cd personal-website/
+nvim .
+cd ..
+ls
+cd .confgi
+cd .config
+ls
+ls -la
+cat .git
+cd .git
+ls
+cat info
+cd info
+ls
+cd ../..
+l
+ls
+git remote add "origin" git@github.com:calebmatsick/dotfiles.git
+git status
+ls
+ls -la
+ls
+cd nushell
+nvim catppuccin-mocha.nu
+ls
+nvim config.nu
+source config.nu
+ls
+nvim config.nu
+pnpm run dev
+nvim config.nu
+config nu
+$nu.config-path
+nvim /home/firstcitizen/.config/nushell/config.nu
+config nu
+$env.PATH
+pnpm
+pwd
+cd personal-website/
+ls
+git status
+git add .
+git commit -m "Adjust file structure for routing"
+ls
+zsh
+ls
+whoami
+cd ..
+git status
+cd nushell/
+ls
+cat history.txt
+cd ..
+ls
+git status
